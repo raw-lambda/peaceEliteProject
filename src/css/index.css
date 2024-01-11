@@ -1,0 +1,47 @@
+body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+button {
+  /* 按钮去掉边框 */
+  border: none;
+  /* 去掉背景 */
+  background: none;
+  padding: 0;
+  /* 去掉轮廓 */
+  outline: none;
+  /* 变成一个手的形状 */
+  cursor: pointer;
+}
+
+#top {
+  height: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+#top .container {
+  width: 990px;
+  /* 水平居中 */
+  margin: 0 auto;
+  /* 弹性盒模型 */
+  display: flex;
+}
